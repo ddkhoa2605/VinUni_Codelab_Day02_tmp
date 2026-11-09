@@ -20,7 +20,7 @@ Sử dụng phương pháp **4 Lenses** (*Lặp lại, Tốn thời gian, AI có
 |:---:|:---:|:---:|:---|:---|
 | **1** | **Vinmec** | **Tốn thời gian** *(Time-consuming)* | **Soạn thảo tóm tắt hồ sơ bệnh án xuất viện (Discharge Summary):** Bác sĩ nội trú phải đọc lại toàn bộ kết quả cận lâm sàng (xét nghiệm, CT/MRI), diễn tiến bệnh, thuốc điều trị trong suốt đợt nằm viện để tổng hợp thành văn bản tóm tắt xuất viện bằng ngôn ngữ y khoa chuẩn xác kết hợp hướng dẫn dễ hiểu cho bệnh nhân. | Bác sĩ mất **25–35 phút/hồ sơ**. Với ~250 lượt xuất viện/ngày trên 7 bệnh viện Vinmec, tiêu tốn hơn **120 giờ làm việc chuyên môn cao/ngày**. Gây chậm trễ giờ trả giường (downtime giường bệnh 1.5–2 giờ), làm tăng thời gian chờ của bệnh nhân mới. |
 | **2** | **Vinmec** | **Pain từ người khác** *(Stakeholder Pain)* | **Phân loại triệu chứng & Đặt lịch khám chuyên khoa (Intelligent Triage):** Khách hàng liên hệ tổng đài/App MyVinmec mô tả các triệu chứng phức hợp, mơ hồ (đau tức ngực kèm mỏi vai gáy, chóng mặt). Nhân viên CSKH/Call center không có bằng cấp y khoa chuyên sâu dễ xếp sai chuyên khoa (Tim mạch vs Cơ xương khớp vs Thần kinh). | Ước tính **18–22% ca khám ban đầu bị chỉ định sai chuyên khoa**, bệnh nhân phải làm thủ tục chuyển khoa sau lần khám đầu, gây bức xúc, mất thêm 1 ngày chờ đợi, giảm chỉ số hài lòng CSAT xuống dưới 75% và lãng phí công suất phòng khám chuyên gia. |
-| **3** | **Vinmec** | **Lặp lại** *(Repetitive)* | **Rà soát điều kiện bảo lãnh viện phí bảo hiểm tư nhân (Insurance Pre-authorization):** Nhân viên kế toán/thu ngân phải đối chiếu thủ công từng dòng thuốc, vật tư tiêu hao, dịch vụ cận lâm sàng của bệnh nhân với quy tắc loại trừ và hạn mức hợp đồng của hơn 30 hãng bảo hiểm liên kết (Bảo Việt, PVI, Manulife, Prudential...). | Xử lý thủ công mất **20–30 phút/hồ sơ**. Tỉ lệ hồ sơ bị hãng bảo hiểm từ chối hoặc yêu cầu bổ sung giải trình là **12%**, gây ứ đọng công nợ bảo hiểm (AR) ước tính **15–20 tỷ VND/tháng**, kéo dài thời gian làm thủ tục xuất viện từ 45 phút lên đến 2–3 tiếng. |
+| **3** | **Vinmec** | **Tốn thời gian & Chi phí cao** *(Time-consuming & Cost)* | **Tự động bóc tách & dịch thuật hồ sơ bệnh án đa ngôn ngữ cho bệnh nhân quốc tế (International Medical Records Translation):** Khách hàng quốc tế (chuyên gia expat, khách du lịch) khi xuất viện yêu cầu toàn bộ bệnh án, kết quả phẫu thuật, xét nghiệm phải dịch sang tiếng Anh chuẩn y khoa để nộp bảo hiểm toàn cầu (Cigna, Allianz, SOS International). Hiện Vinmec phải thuê ngoài dịch thuật thủ công. | Bệnh nhân phải chờ **3–5 ngày làm việc** sau khi ra viện mới nhận được hồ sơ. Chi phí thuê dịch thuật y khoa bên ngoài tốn **300.000–500.000 VND/trang** (trung bình 6–10 triệu VND/bộ hồ sơ 20 trang), tiêu tốn **350–500 triệu VND/tháng/bệnh viện**. Bác sĩ Vinmec mất thêm 30 phút rà soát vì bên ngoài hay dịch sai thuật ngữ lâm sàng. |
 | **4** | **Vinmec** | **AI có thể tốt hơn** *(AI-upgrade)* | **Ghi nhận hồ sơ bệnh án qua giọng nói thời gian thực (Clinical Voice-to-EMR):** Trong ca khám ngoại trú, bác sĩ phải vừa thăm khám vừa gõ bàn phím nhập liệu tiền sử, bệnh sử vào hệ thống EMR, làm giảm sự tương tác bằng mắt với người bệnh. | Bác sĩ mất **40% thời gian của một ca khám (khoảng 6–8 phút/ca 15 phút)** chỉ để gõ máy tính. Dễ xảy ra sai sót gõ nhầm liều lượng thuốc, giảm năng suất phục vụ từ 25 bệnh nhân/ngày xuống còn 15 bệnh nhân/ngày/bác sĩ. |
 | **5** | **Vinmec** | **Lặp lại & Pain** *(Repetitive & Pain)* | **Chăm sóc và theo dõi tuân thủ phác đồ sau xuất viện (Post-discharge Monitoring):** Điều dưỡng gọi điện thoại định kỳ vào ngày thứ 3 và thứ 7 sau xuất viện để hỏi thăm vết mổ, tác dụng phụ của thuốc và nhắc lịch tái khám. | Tỉ lệ gọi thành công chỉ đạt **35–40%** (khách hàng bận, không nghe số lạ). Ước tính **28% bệnh nhân mạn tính/sau mổ không tái khám đúng hẹn**, tăng tỉ lệ tái nhập viện trong 30 ngày (Readmission rate) lên 8.5%, ảnh hưởng tiêu chuẩn chất lượng quốc tế JCI. |
 
@@ -101,39 +101,39 @@ Chọn lọc **top 3 bài toán** khả thi và có tác động kinh doanh cao 
 
 ---
 
-### 📇 QUICK PROBLEM CARD #3: Tự Động Rà Soát Điều Kiện Bảo Lãnh Viện Phí Bảo Hiểm
+### 📇 QUICK PROBLEM CARD #3: Tự Động Bóc Tách & Dịch Thuật Bệnh Án Cho Bệnh Nhân Quốc Tế
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ QUICK PROBLEM CARD #3                                                       │
 │                                                                             │
-│ Bài toán (1 câu): Rà soát danh mục thuốc và vật tư y tế thủ công gây chậm   │
-│ trễ thủ tục bảo lãnh viện phí và tăng tỉ lệ hãng bảo hiểm từ chối bồi thường.│
+│ Bài toán (1 câu): Bệnh nhân quốc tế phải chờ 3-5 ngày và tốn hàng chục triệu│
+│ để dịch thuật bệnh án sang tiếng Anh nộp bảo hiểm toàn cầu (Cigna, Allianz).│
 │ Công ty thành viên: [ ] VinFast  [ ] Xanh SM  [ ] Vinhomes                  │
 │                     [x] Vinmec   [ ] Khác (Ghi rõ)________                  │
 │                                                                             │
-│ Ai đang đau (Actor)? Nhân viên Thu ngân bảo hiểm, Bệnh nhân chờ thanh toán │
+│ Ai đang đau (Actor)? Khách quốc tế (chờ đợi), Bác sĩ & Thư ký y khoa        │
 │                                                                             │
 │ Workflow thủ công hiện tại (5 bước):                                        │
-│   1. Xuất bảng kê chi tiết viện phí (thuốc, xét nghiệm, phẫu thuật)         │
-│   ──> 2. Mở file hợp đồng & phụ lục loại trừ của công ty bảo hiểm tương ứng │
-│   ──> 3. Đối chiếu thủ công từng dòng chi phí với danh mục chi trả          │
-│   ──> 4. Soạn hồ sơ yêu cầu bảo lãnh (Pre-auth form) gửi qua cổng bảo hiểm  │
-│   ──> 5. Chờ duyệt và giải thích chênh lệch tự chi trả cho bệnh nhân        │
+│   1. Thu gom hồ sơ EMR tiếng Việt (chẩn đoán, xét nghiệm, mổ) sau ra viện   │
+│   ──> 2. Gửi tài liệu scan sang đơn vị dịch thuật y khoa bên ngoài          │
+│   ──> 3. Chờ công ty ngoài dịch thủ công (mất 3-5 ngày làm việc)            │
+│   ──> 4. Bác sĩ Vinmec rà soát lại lỗi sai thuật ngữ y khoa lâm sàng        │
+│   ──> 5. Ký đóng dấu bệnh viện và gửi chuyển phát cho bệnh nhân             │
 │                                                                             │
-│ Bước nào tốn thời gian/lỗi nhất? Bước 2 & 3 (⏱ 20 phút/hồ sơ)               │
+│ Bước nào tốn thời gian/lỗi nhất? Bước 2, 3 & 4 (⏱ Chờ 3-5 ngày, lỗi từ ngữ) │
 │ AI có thể nhảy vào hỗ trợ ở bước nào? Bước 2, 3, 4                          │
-│ (So khớp điều khoản hợp đồng dạng văn bản với bảng kê viện phí tự động)     │
+│ (Trích xuất EMR -> Dịch thuật AI chuẩn MeSH/SNOMED -> Bác sĩ chỉ cần duyệt) │
 │                                                                             │
 │ Đo thành công bằng gì (Metric có số)?                                       │
-│   "Giảm thời gian rà soát hồ sơ bảo hiểm từ 25 phút ──> dưới 5 phút.        │
-│    Giảm tỉ lệ hồ sơ bảo lãnh bị từ chối/bổ sung từ 12% ──> dưới 2%."        │
+│   - Rút ngắn thời gian bàn giao hồ sơ từ 3-5 ngày ──> dưới 30 phút (99%).   │
+│   - Cắt giảm 85% chi phí dịch ngoài, tiết kiệm 350-500 triệu VND/tháng/BV.  │
 │                                                                             │
-│ Quick Architecture: [ ] No AI  [ ] Rule  [x] LLM + Rules  [ ] Agent         │
+│ Quick Architecture: [ ] No AI  [ ] Rule  [x] LLM Feature  [ ] Agent         │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-* **Lý do AI Fit:** Kết hợp Rule Engine (kiểm tra hạn mức số tiền) với LLM RAG (đọc và phân tích các điều khoản loại trừ mơ hồ trong quy tắc bảo hiểm sức khỏe). Ranh giới: Bắt buộc nhân viên thu ngân ký duyệt trước khi phát hành hóa đơn chính thức cho bệnh nhân.
+* **Lý do AI Fit:** LLM y khoa chuyên sâu vượt trội trong việc hiểu ngữ cảnh bệnh án tiếng Việt và dịch chuyển tự động sang danh mục thuật ngữ y khoa quốc tế chuẩn hóa (MeSH, SNOMED-CT, ICD-10), loại bỏ các lỗi dịch ngô nghê của các công ty dịch thuật thông thường. Ranh giới vận hành: Bản dịch AI bắt buộc gắn nhãn `[DRAFT_ONLY]` và yêu cầu Bác sĩ phụ trách hoặc Điều phối viên quốc tế của Vinmec ký xác nhận trước khi đóng dấu phát hành chính thức cho bệnh nhân (HITL 100%).
 
 ---
 
